@@ -1,3 +1,4 @@
+/* HEADER STYLES */
 .header {
   box-sizing: border-box;
   margin: 1.3vh auto;
@@ -44,4 +45,17 @@
 }
 .header-logo img {
   width: 12.3vh;
+}
+
+/* FOOTER STYLES */
+.footer {
+  background-color: #222;
+  width: 100%;
+}
+.footer-area {
+  background-color: #ccc;
+}
+.footer-area h3 {
+  color: ccc;
+  font-family: 'Noto Sans TC', sans-serif;
 }
