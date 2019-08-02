@@ -1,0 +1,47 @@
+.header {
+  box-sizing: border-box;
+  margin: 1.3vh auto;
+  max-width: 1360px;
+  padding: 0.5em 5vw;
+  position: fixed;
+  right: -40px;
+  width: 100%;
+  z-index: 20;
+}
+.header-nav {
+  float: right;	
+  margin-right: 5vw; 
+}
+.header-nav a{
+  color: #000;
+  font-size: 0.85rem;
+  font-family: 'PT Sans Narrow' , sans-serif;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-nav a:hover, 
+.header-nav a:active {
+	border-bottom: 1px solid #f75904;
+	padding-bottom: .1em;
+}
+.header-nav > li{
+  display: inline-block;
+  margin-left: 2em;
+}
+.header-nav > li:last-child a:hover {
+  color: #f75904;
+  border-bottom: 0;
+}
+.header-logo {
+  display: block;
+  position: relative;
+  text-align: center;
+  top: -.85em;
+  width: 15vh;
+}
+.header-logo img {
+  width: 12.3vh;
+}
